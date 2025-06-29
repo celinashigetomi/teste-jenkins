@@ -12,7 +12,7 @@ pipeline {
                 // Usamos um bloco 'script' para poder usar programação mais livre
                 script {
                     // O comando 'readFile' lê o conteúdo do arquivo especificado
-                    def conteudoDoArquivo = readFile 'dados.txt'
+                    def conteudoDoArquivo = readFile 'teste-carga.xml'
 
                     // O comando 'echo' imprime uma mensagem no log do Jenkins
                     echo "========= INÍCIO DO ARQUIVO =========="

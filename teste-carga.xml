@@ -1,10 +1,4 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.integracaoIxia.sinistro.porto.com">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <ser:gravarNota>
-         <ser:numeroSinistro>53120236633</ser:numeroSinistro>
-         <ser:detalhesNota>?</ser:detalhesNota>
-         <ser:idIdentificacaoIXIA>?</ser:idIdentificacaoIXIA>
-      </ser:gravarNota>
-   </soapenv:Body>
-</soapenv:Envelope>
+<request>
+    <codigo>200</codigo>
+    <descricao>OK</descricao>
+</request>
